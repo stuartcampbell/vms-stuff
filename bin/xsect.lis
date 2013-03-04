@@ -1,0 +1,53 @@
+
+ *********************************************
+ * CROSS Calculate sample cross-sections etc *
+ *********************************************
+
+ Units: b in fm, sigma in barns
+
+ PRIMARY DATA...
+  Z    A         Symbol b_bar      sig_scatt    sig_abs
+ 14   28.085501  Si     4.15340    2.17100      0.17100
+
+ Number of atoms in scattering unit  =    1.000000    
+ Density not known 
+
+          Atomic   
+ Element  Fraction 
+  Si      1.00000
+
+ VALUES PER SCATTERING UNIT... 
+ Atomic weight                            =    28.0855
+ Bound coherent scattering length         =     4.1534
+ Free coherent scattering length          =     4.0106
+ Bound scattering cross-section           =     2.1710
+ Bound scattering cross-section/4pi       =     0.1728
+ Free scattering cross-section            =     2.0243
+ Free scattering cross-section/4pi        =     0.1611
+ Absorption cross-section at 2200ms**-1   =     0.1710
+ Absorption cross-section at 1 Angstrom   =     0.0951
+ Absorption cross-section at 1.8 Angstrom =     0.1712
+
+ The total correlation function is a sum of the
+ FZ partial correlation functions with the
+ following coefficients;
+ Si-Si :    0.1725
+
+ AVERAGE VALUES PER ATOM... 
+ Atomic weight                            =    28.0855
+ Bound coherent scattering length         =     4.1534
+ Free coherent scattering length          =     4.0106
+ Bound scattering cross-section           =     2.1710
+ Bound scattering cross-section/4pi       =     0.1728
+ Free scattering cross-section            =     2.0243
+ Free scattering cross-section/4pi        =     0.1611
+ Absorption cross-section at 2200ms**-1   =     0.1710
+ Absorption cross-section at 1 Angstrom   =     0.0951
+ Absorption cross-section at 1.8 Angstrom =     0.1712
+
+ The total correlation function is a sum of the
+ FZ partial correlation functions with the
+ following coefficients;
+ Si-Si :    0.1725
+
+ (bound sig_scatt/4pi is self scattering level) 
