@@ -1,0 +1,11 @@
+$ set file/prot=(w:re) sys$scratch:INX05009.a2i_log
+$ set def sys$scratch:
+$ run ida_impa:will_5_3_1_axp
+set disk sys$scratch:
+set dir 
+set inst INX
+set ext asc
+run 5009
+be
+exit
+$ exit

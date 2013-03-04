@@ -1,0 +1,154 @@
+PROCEDURE add_inx
+ RESULT sum
+ 
+ LOCAL filename i j w istart ifinish
+ LOCAL vanadium_sum empty_sum t300_sum t350_sum t400_sum
+
+# toggle/info/off
+ 
+ set/disk "user$disk:"
+ set/dir  "[sic.analysis.in10]"
+ set/ext  "iqw"
+ set/inst "inx"
+
+  w = dimensions(8)	# create array to store spectra
+  sum = dimensions(8)   # output array of spectra
+
+# Add Vanadium files...
+ printn " Adding Vanadium files ..."
+ istart = 5010
+ ifinish = 5015
+ LOOP i FROM istart TO ifinish
+ filename = cfn(i)
+ set/file filename
+
+  LOOP j FROM 1 TO 8
+    IF (i=istart)
+     printi j
+     sum[(j)] = get(j) 
+    ELSE
+     sum[(j)] = sum[(j)] + rebin(get(j), sum[j].x)
+    ENDIF
+  ENDLOOP 
+
+ ENDLOOP 
+           
+ LOOP j FROM 1 TO 8; sum[j].x=sum[j].x/1000.0; ENDLOOP
+
+ vanadium_sum = sum
+ 
+ put/new/g2 vanadium_sum[1] file="vanadium.iqw"
+ LOOP i FROM 2 TO 8
+  put/g2 vanadium_sum[i] file="vanadium.iqw"
+ ENDLOOP
+
+# Add Empty sample files...
+ printn " Adding empty sample files ..."
+ istart = 5016
+ ifinish = 5018
+ LOOP i FROM istart TO ifinish
+ filename = cfn(i)
+ set/file filename
+
+  LOOP j FROM 1 TO 8
+    IF (i=istart)
+     printi j
+     sum[(j)] = get(j) 
+    ELSE
+     sum[(j)] = sum[(j)] + rebin(get(j), sum[j].x)
+    ENDIF
+  ENDLOOP 
+
+ ENDLOOP            
+
+ LOOP j FROM 1 TO 8; sum[j].x=sum[j].x/1000.0; ENDLOOP
+
+ empty_sum = sum
+ put/new/g2 empty_sum[1] file="empty.iqw"
+ LOOP i FROM 2 TO 8
+  put/g2 empty_sum[i] file="empty.iqw"
+ ENDLOOP
+
+# Add 350K files...
+ printn " Adding 350 K files ..."
+ istart = 5019 
+ ifinish = 5028
+ LOOP i FROM istart TO ifinish
+ filename = cfn(i)
+ set/file filename
+
+  LOOP j FROM 1 TO 8
+    IF (i=istart)
+     printi j
+     sum[(j)] = get(j) 
+    ELSE
+     sum[(j)] = sum[(j)] + rebin(get(j), sum[j].x)
+    ENDIF
+  ENDLOOP 
+
+ ENDLOOP 
+           
+ LOOP j FROM 1 TO 8; sum[j].x=sum[j].x/1000.0; ENDLOOP
+
+ t350_sum = sum
+ put/new/g2 t350_sum[1] file="350.iqw"
+ LOOP i FROM 2 TO 8
+  put/g2 t350_sum[i] file="350.iqw"
+ ENDLOOP
+ 
+# Add 300K files...
+ printn " Adding 300 K files ..."
+ istart = 5029 
+ ifinish = 5037
+ LOOP i FROM istart TO ifinish
+ filename = cfn(i)
+ set/file filename
+
+  LOOP j FROM 1 TO 8
+    IF (i=istart)
+     printi j
+     sum[(j)] = get(j) 
+    ELSE
+     sum[(j)] = sum[(j)] + rebin(get(j), sum[j].x)
+    ENDIF
+  ENDLOOP 
+
+ ENDLOOP 
+           
+ LOOP j FROM 1 TO 8; sum[j].x=sum[j].x/1000.0; ENDLOOP
+
+ t300_sum = sum
+ put/new/g2 t300_sum[1] file="300.iqw"
+ LOOP i FROM 2 TO 8
+  put/g2 t300_sum[i] file="300.iqw"
+ ENDLOOP
+
+# Add 400K files...
+ printn " Adding 400 K files ..."
+ istart  = 5038
+ ifinish = 5046
+ LOOP i FROM istart TO ifinish
+ filename = cfn(i)
+ set/file filename
+
+  LOOP j FROM 1 TO 8
+    IF (i=istart)
+     sum[(j)] = get(j) 
+    ELSE
+     sum[(j)] = sum[(j)] + rebin(get(j), sum[j].x)
+    ENDIF
+  ENDLOOP 
+
+ ENDLOOP 
+
+ LOOP j FROM 1 TO 8; sum[j].x=sum[j].x/1000.0; ENDLOOP
+           
+ t400_sum = sum
+ put/new/g2 t400_sum[1] file="400.iqw"
+ LOOP i FROM 2 TO 8
+  put/g2 t400_sum[i] file="400.iqw"
+ ENDLOOP
+
+# toggle/info/on
+
+ENDPROCEDURE

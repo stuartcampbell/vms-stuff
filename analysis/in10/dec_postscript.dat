@@ -1,0 +1,148 @@
+%!PS-Adobe-
+%%Title: DEC_POSTSCRIPT.DAT
+%%Creator: SIC         , DEC GKS PS Device Handler, V1.0
+%%CreationDate: 10-MAY-2000 16:07:38.55
+%%Pages: (atend)
+%%BoundingBox: (atend)
+%%EndComments
+save /DEC_VAXGFX_save exch def
+gsave /pixel_matrix 72 300 div dup scale matrix currentmatrix def grestore
+72 300 div dup scale
+-90 rotate -3508 0 translate
+118 118 translate
+/DEC_VAXGFX_dict 60 dict def DEC_VAXGFX_dict begin
+10 dict dup begin /FontType 3 def /FontMatrix [ 1.0 60.0 div dup 0 exch 0 exch 0 0 ] def
+/Encoding 256 array def /FontBBox [0 0 60 60 ]def 0 1 255 {Encoding exch /.notdef put } for
+Encoding dup (1) 0 get /cross put dup (2) 0 get /d45 put dup (3) 0 get /d135 put dup (4) 0 get /horiz put
+dup (5) 0 get /vert put dup (6) 0 get /d45w put dup (7) 0 get /d135w put dup (8) 0 get /horizw put (9) 0 get /vertw put
+/Metrics 10 dict def Metrics begin /.notdef 0 def /cross 60 def /d45 60 def /d135 60 def
+/horiz 60 def /vert 60 def /d45w 60 def /d135w 60 def /horizw 60 def /vertw 60 def end
+/BBox 10 dict def BBox begin /.notdef [0 0 0 0 ] def /cross [0 0 59 59 ] def /d45 [0 0 59 59 ] def
+/d135 [0 0 59 59 ] def /horiz [0 0 60 60 ] def /vert [0 0 60 60 ] def
+/d45w [0 0 59 59 ] def /d135w [0 0 59 59 ] def
+/horizw [0 0 60 60 ] def /vertw [0 0 60 60 ] def end
+/CharacterDefs 10 dict def CharacterDefs begin /.notdef {} def
+/horiz {0 15 59 {dup newpath 0 exch moveto 60 exch lineto stroke  } for } def
+/horizw {0 30 59 {dup newpath 0 exch moveto 60 exch lineto stroke  } for } def
+/vert {0 15 59 {dup newpath 0 moveto 60 lineto stroke } for } def
+/vertw {0 30 59 {dup newpath 0 moveto 60 lineto stroke } for } def
+/d45 {15 15 59 {dup newpath 0 exch moveto dup 59 exch sub 59 lineto stroke
+dup 0 moveto 59 exch 59 exch sub lineto stroke } for newpath 0 0 moveto 59 59 lineto stroke } def
+/d135 {15 15 59 {dup newpath 59 exch moveto dup 59 lineto stroke
+dup 59 exch sub 0 moveto 0 exch 59 exch sub lineto stroke } for newpath 0 59 moveto 59 0 lineto stroke } def
+/d45w {30 30 59 {dup newpath 0 exch moveto dup 59 exch sub 59 lineto stroke
+dup 0 moveto 59 exch 59 exch sub lineto stroke } for newpath 0 0 moveto 59 59 lineto stroke } def
+/d135w { 30 30 59 {dup newpath 59 exch moveto dup 59 lineto stroke
+dup 59 exch sub 0 moveto 0 exch 59 exch sub lineto stroke } for newpath 0 59 moveto 59 0 lineto stroke } def
+/cross { 20 20 59 {dup newpath 0 exch moveto dup 59 exch sub 59 lineto stroke
+dup 0 moveto 59 exch 59 exch sub lineto stroke } for newpath 0 0 moveto 59 59 lineto stroke
+20 20 59 {dup newpath 59 exch moveto dup 59 lineto stroke dup 59 exch sub 0 moveto 0 exch 59 exch sub lineto stroke } for
+newpath 0 59 moveto 59 0 lineto stroke } def end
+/BuildChar {0 begin /char exch def /fontdict exch def /charname fontdict /Encoding get char get def
+fontdict begin Metrics charname get 0 BBox charname get aload pop setcachedevice [] 0 setdash 1 setlinewidth
+CharacterDefs charname get exec end end } def /BuildChar load 0 3 dict put
+end /DEC_VAXGFX_Hatchstyles exch definefont pop
+/Currenthatch 1 string def
+10 dict dup begin /FontType 3 def /FontMatrix [.001 0 0 .001 0 0 ] def /Encoding 256 array def
+/FontBBox [-500 -500 500 500] def 0 1 255 { Encoding exch /.notdef put } for
+Encoding dup 48 /dot put dup 49 /plus put dup 50 /star put dup 51 /circle put dup 52 /cross put dup 53 /triangleup put
+dup 54 /square put dup 55 /diamond put dup 56 /triangledown put dup 57 /bowtie put dup 58 /hourglass put
+dup 59 /solidtriangledown put dup 60 /solidtriangleup put dup 61 /solidsquare put dup 62 /soliddiamond put
+dup 63 /solidcircle put dup 64 /solidhourglass put 65 /solidbowtie put
+/Metrics 19 dict def Metrics begin /.notdef 0 def /dot 0 def  /plus 0 def /star 0 def
+/circle 0 def /cross 0 def  /triangleup 0 def /square 0 def /diamond 0 def /triangledown 0 def
+/bowtie 0 def /hourglass 0 def /solidtriangleup 0 def /solidtriangledown 0 def /solidsquare 0 def
+/soliddiamond 0 def /solidcircle 0 def /solidhourglass 0 def /solidbowtie 0 def end
+/BBox 19 dict def BBox begin /.notdef [0 0 0 0 ] def /dot [-20 -20 20 20 ] def
+/plus [-500 -500 500 500 ] def /star [-500 -500 500 500 ] def /circle [-500 -500 500 500 ] def /cross [-500 -500 500 500 ] def
+/triangleup [-500 -433 500 433] def /square [-500 -500 500 500] def /diamond [-500 -500 500 500] def
+/triangledown [-500 -433 500 433] def /solidtriangleup [-500 -433 500 433] def /solidtriangledown [-500 -433 500 433] def
+/solidsquare [-500 -500 500 500] def 
+/soliddiamond [-500 -500 500 500] def /solidcircle [-500 -500 500 500] def
+/hourglass [-500 -500 500 500] def /solidhourglass [-500 -500 500 500] def /bowtie [-500 -500 500 500] def
+/solidbowtie [-500 -500 500 500] def end
+/CharacterDefs 19 dict def CharacterDefs begin /.notdef {} def
+/dot { newpath 0 0 moveto 0 0 rlineto pixel_matrix setmatrix 2 setlinewidth 1 setlinecap stroke } def
+/plus { newpath 0 500 moveto 0 -500 lineto 500 0 moveto -500 0 lineto
+pixel_matrix setmatrix 1 setlinewidth stroke } def
+/star { newpath 0 500 moveto 0 -500 lineto 500 0 moveto -500 0 lineto 350 350 moveto -350 -350 lineto 350 -350 moveto
+-350 350 lineto pixel_matrix setmatrix 1 setlinewidth stroke } def
+/circle { newpath 0 0 500 0 360 arc closepath pixel_matrix setmatrix 1 setlinewidth stroke } def
+/solidcircle { newpath 0 0 500 0 360 arc closepath fill} def
+/cross { newpath 500 500 moveto -500 -500 lineto 500 -500 moveto -500 500 lineto
+pixel_matrix setmatrix 1 setlinewidth stroke } def
+/square { newpath -500 -500 moveto 500 -500 lineto 500 500 lineto -500 500 lineto closepath
+pixel_matrix setmatrix 1 setlinewidth stroke } def
+/solidsquare { newpath -500 -500 moveto 500 -500 lineto 500 500 lineto -500 500 lineto closepath fill} def
+/diamond { newpath 0 -500 moveto 500 0 lineto 0 500 lineto -500 0 lineto closepath
+pixel_matrix setmatrix 1 setlinewidth  stroke } def
+/soliddiamond { newpath 0 -500 moveto 500 0 lineto 0 500 lineto -500 0 lineto closepath fill }def
+/triangleup { newpath -500 -433 moveto 500 -433 lineto 0 433 lineto closepath pixel_matrix setmatrix 1 setlinewidth  stroke }def
+/solidtriangleup { newpath -500 -433 moveto 500 -433 lineto 0 433 lineto closepath fill }def
+/triangledown { newpath -500 433 moveto 500 433 lineto 0 -433 lineto closepath
+pixel_matrix setmatrix 1 setlinewidth  stroke } def
+/solidtriangledown { newpath -500 433 moveto 500 433 lineto 0 -433 lineto closepath fill } def
+/hourglass { newpath 500 500 moveto -500 500 lineto 500 -500 lineto -500 -500 lineto closepath
+pixel_matrix setmatrix 1 setlinewidth stroke } def
+/bowtie { newpath 500 500 moveto 500 -500 lineto -500 500 lineto -500 -500 lineto closepath
+pixel_matrix setmatrix 1 setlinewidth  stroke } def
+/solidhourglass { newpath 500 500 moveto -500 500 lineto 500 -500 lineto -500 -500 lineto closepath fill } def
+/solidbowtie { newpath 500 500 moveto 500 -500 lineto -500 500 lineto -500 -500 lineto closepath fill } def end
+/BuildChar { 0 begin /char exch def /fontdict exch def /charname fontdict /Encoding get char get def
+fontdict begin Metrics charname get 0 BBox charname get aload pop setcachedevice CharacterDefs charname get exec
+end end } def /BuildChar load 0 3 dict put
+end /DEC_VAXGFX_Markers exch definefont pop
+systemdict /setpacking known {/savepacking currentpacking def true setpacking }if
+/m {moveto} bind def
+/nmr { newpath gsave translate rotate 0 0 moveto } bind def
+/sfnt { findfont exch scalefont setfont } bind def
+/mfnt { findfont exch makefont setfont } bind def
+/dh {mark exch {Currenthatch cvs pop eoclip newpath
+pixel_matrix setmatrix /DEC_VAXGFX_Hatchstyles findfont 60 scalefont setfont clippath pathbbox newpath
+4 2 roll 60 div floor exch 60 div floor exch 60 mul /y0 exch def dup /x1 exch def
+60 mul /x0 exch def x0 y0 moveto 60 div ceiling 60 mul exch 60 div ceiling x1 sub cvi /nc exch def
+y0 exch 60 exch {nc {Currenthatch show }repeat x0 exch moveto }for }
+stopped pop cleartomark grestore }bind def
+/pl { moveto { rlineto } repeat stroke } bind def
+ /l { lineto } bind def /ls { lineto stroke } bind def /mls { moveto rlineto stroke } bind def 
+/n { newpath } bind def
+/pth {{rlineto} repeat} bind def
+/cry { /y0 exch def /x0 exch def /e1 (Cell array reached end-of-file) def /t1 x0 7 add 8 div cvi string def
+x0 y0 1 [ x0 0 0 y0 0 0 ] { currentfile t1 readhexstring not { e1 print } if } image } bind def
+/vshow { /s1 exch def /y1 exch def /x1 exch def s1 0 1 getinterval /t1 exch def t1 stringwidth 2 div exch 2 div exch rmoveto
+s1 { t1 exch 0 exch put gsave t1 stringwidth -2 div exch -2 div exch rmoveto t1 show grestore
+x1 y1 rmoveto } forall newpath } bind def
+/dpt {mark 7 1 roll {eoclip /ph exch def /pw exch def newpath moveto /t1 exch def rotate
+/s1 90 t1 sub sin def [ 1 0 t1 sin t1 cos div s1 mul s1 0 0 ] concat currentpoint /py exch def /px exch def
+clippath pathbbox newpath /y1 exch def /x1 exch def /y0 exch def /x0 exch def
+/x0 x0 px sub pw div floor pw mul px add def /y0 y0 py sub ph div floor ph mul py add def
+/nc x1 x0 sub pw div ceiling cvi def /nr y1 y0 sub ph div ceiling cvi def
+/x1 x0 pw nc mul add def /y1 y0 ph nr mul add def
+x0 y0 translate x1 x0 sub y1 y0 sub scale /x0 nc pcl mul def /y0 nr prw mul def
+/nc nc 1 sub def /nr prw 1 sub def /x1 0 def /y1 0 def x0 y0 8 [ x0 0 0 y0 neg 0 y0 ]
+{pry y1 get x1 nc lt {/x1 x1 1 add def }{/x1 0 def y1 nr lt {/y1 y1 1 add def }{/y1 0 def }ifelse }ifelse }image
+}stopped pop cleartomark grestore }bind def
+/rpt { /prw exch def /pcl exch def dup /s2 exch pcl mul 8 div ceiling cvi string def /pry prw array def
+8 eq { /f1 { pry nr get 0 s2 putinterval } def } { /f1 { /s1 pry nr get def 0 1 pcl 1 sub
+{ /nc exch def s1 nc s2 nc 8 idiv get 1 7 nc 8 mod sub bitshift and 0 eq { 0 } { 255 } ifelse put } for } def } ifelse
+0 1 prw 1 sub { /nr exch def pry nr pcl string put currentfile s2 readhexstring
+not { (rpt reached end-of-file) print } if pop f1 } for } bind def
+/scl { /ccol exch def gray ccol get setgray } bind def
+/sclrp { /t1 exch def gray exch t1 exch put t1 ccol eq { /ccol -1 def t1 scl } if } bind def
+/sm { /DEC_VAXGFX_Markers findfont exch scalefont /mf exch def } def
+/dm { mf setfont /mc exch def moveto mc show { rmoveto mc show } repeat newpath } def
+/om { mf setfont moveto show newpath } def
+systemdict /setpacking known {savepacking setpacking }if
+/gray 2 array def
+/ccol -1 def
+1 0 sclrp
+0 1 sclrp
+1 scl
+/dfl { eofill } def
+1 setlinewidth
+%%EndProlog
+%%Page: ? 1
+save /psl exch def
+showpage psl restore
+%%Page: ? 2
+save /psl exch def

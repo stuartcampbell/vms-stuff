@@ -1,0 +1,7 @@
+$ set file/prot=(w:re) sys$scratch:INX05029.i2s_log
+$ set def sys$scratch:
+$ define gks_1300_1 NL:
+$ genie
+@INX_grp 5029
+> exit
+$ exit

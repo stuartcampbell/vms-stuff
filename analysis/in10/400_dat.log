@@ -1,0 +1,44 @@
+
+SQW+ C-version (OGR:v1.0): v1.1:BF4/11/98
+
+Execution: Tue Jun 8 1999  13:21
+Output file: 400.dat
+Title: TiCrHx 400K  # experiment title
+sample data:
+ /usr/users/sic01/data/005038  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005039  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005040  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005041  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005042  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005043  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005044  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005045  -12.3...12.3 ueV  Metal hydrides
+ /usr/users/sic01/data/005046  -12.3...12.3 ueV  Metal hydrides
+
+normalisation data:
+ /usr/users/sic01/data/005010  -12.3...12.3 ueV  Metal hydrides
+
+normalisation data:
+ /usr/users/sic01/data/005011  -12.4...12.4 ueV  Metal hydrides
+
+normalisation data:
+ /usr/users/sic01/data/005012  -12.4...12.4 ueV  Metal hydrides
+
+normalisation data:
+ /usr/users/sic01/data/005013  -12.4...12.4 ueV  Metal hydrides
+
+normalisation data:
+ /usr/users/sic01/data/005014  -12.4...12.4 ueV  Metal hydrides
+
+normalisation data:
+ /usr/users/sic01/data/005015  -12.3...12.3 ueV  Metal hydrides
+Group :                           Sample :        Normalisation:   Normalized:
+ K   Det    2Th   Q   dE/ueV      AS1   AS2       I   bgL/I bgR/I      I
+01 01-01   23.8  0.41   0.16  1000.000   0.298   0.019 1.252 1.612    0.560
+02 02-02   34.7  0.60   0.16  1000.000   0.165   0.021 0.564 0.618    0.435
+03 03-03   51.0  0.86   0.00  1000.000   0.040   0.048 0.168 0.200    0.189
+04 04-04   71.0  1.16   0.16  1000.000   0.242   0.064 0.088 0.124    0.189
+05 05-05   91.0  1.43   0.00  1000.000   0.299   0.082 0.056 0.085    0.269
+06 06-06  111.0  1.65   0.16  1000.000   0.170   0.074 0.070 0.077    0.330
+07 07-07  131.0  1.82   0.00  1000.000   0.256   0.081 0.080 0.116    0.163
+08 08-08  151.0  1.94   0.16   39.995  16.182   0.075 0.156 0.214    0.192

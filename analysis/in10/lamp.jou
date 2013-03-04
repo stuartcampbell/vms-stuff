@@ -1,0 +1,16 @@
+*******             
+SESSION            26-May-2000 13:31:46.00
+*******             
+RDSET,inst="    ",base="Current Path"            
+RDSET,inst="OSIRIS"            
+RDSET,base="OSIRIS"            
+RDSET,inst="INX"            
+RDSET,base="Current Path"            
+w1=RDRUN('ticr.dat') ;INX            ;w 1: Float   dim = 255 * 8 min=0.000000 max=180.179
+SEE ,w=1 ,/image,/below            
+w2=RDRUN('vana.dat') ;INX            ;w 2: Float   dim = 255 * 8 min=0.0177093 max=219.984
+SEE ,w=2 ,/image,/below            
+w3=RDRUN('300.dat') ;INX            ;w 3: Float   dim = 255 * 8 min=0.245805 max=315.452
+w4=RDRUN('350.dat') ;INX            ;w 4: Float   dim = 255 * 8 min=0.100576 max=285.312
+w5=RDRUN('400.dat') ;INX            ;w 5: Float   dim = 255 * 8 min=0.245276 max=270.600
+SEE ,w=5 ,/image,/below            

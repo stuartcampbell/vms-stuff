@@ -1,0 +1,117 @@
+$	verify = f$verify(0)
+This job is running on node HATHOR in BATCH mode
+%SET-W-NOTSET, error modifying $1$DKA5:
+-SET-E-INVDEV, device is invalid for requested operation
+
+%DCL-I-SUPERSEDE, previous value of DECW$USER_DEFAULTS has been superseded
+%DCL-I-SUPERSEDE, previous value of GS_LIB has been superseded
+%DCL-I-SUPERSEDE, previous value of XAWSHR has been superseded
+%DCL-I-SUPERSEDE, previous value of XMUSHR has been superseded
+%IDA-S-logs for Alpha
+%DCL-I-SUPERSEDE, previous value of TCLSHR has been superseded
+%DCL-I-SUPERSEDE, previous value of TKSHR has been superseded
+%DCL-I-SUPERSEDE, previous value of TCL_LIBRARY has been superseded
+%DCL-I-SUPERSEDE, previous value of TK_LIBRARY has been superseded
+%DCL-I-SUPERSEDE, previous value of BLTSHR has been superseded
+%DCL-I-SUPERSEDE, previous value of BLT_LIBRARY has been superseded
+%DCL-I-SUPERSEDE, previous value of TIX_LIBRARY has been superseded
+%DCL-I-SUPERSEDE, previous value of TIXSHR has been superseded
+** IDA ** News  UPDATED September 1999 **
+
+* FIREWALL *
+
+External access to CCLRC computers will, from June 29, be restricted to
+certain entry points. For ISIS this will be ISISA.nd.rl.ac.uk.
+If you try to telnet directly to any other computer (such as an instrument)
+you will be rejected.
+
+* NEW GRAPHITE ANALYSERS *
+
+The resolution shape has changed.
+
+Files PG002.res/PG004.RES used in the Quasi_Lines programs now refers to the
+new shape. When analysing old data (pre June 1999) use the files
+norm_par:PG002_old.res and norm_par:PG004_old.res
+%IDA-E-logs
+%DCL-I-SUPERSEDE, previous value of INST_ABRV_NAME has been superseded
+>>   set work 30 6010
+>>             ***  WORK SPACE STATUS ***
+>>      30 work spaces   : length =  6010 channels
+>>       1 graphics space: length =  6010 channels
+>>       2 buffers       : length =  6010 channels
+>>   set disk iris_data:
+>>   default disk is now :IRIS_DATA:                    
+>>   set dir
+>>   default directory is now :                              
+>>   set inst irs
+>>   default instrument is now :IRS
+>>   set ext raw
+>>   default extension is now :.RAW
+>> 
+>>   t ch
+>>	hardware characters selected
+>>   t r/x
+>>   not rounding lower x axis bound
+>>   not rounding upper x axis bound
+>>       rounding lower y axis bound
+>>       rounding upper y axis bound
+>>   a b 1
+>> 
+>>   irsgrps:==@i_p:irsgrps.com
+>>   icon:==@i_p:iofqw 
+>>   RI:==@i_p:read_ida.com 
+>>   WI:==@i_p:write_ida.com 
+>>   WIA:==@i_p:write_ida_asc.com
+>>   OI:==@i_p:offset_ida.com
+>>   REVI:==@i_p:reverse_ida.com
+>>   RII:==@i_p:read_ida_int.com
+>>   ADD:==@IRIS$DISK:[IRSMGR.DIFF]ADD.COM
+>>   ADDDAE:==@IRIS$DISK:[IRSMGR.DIFF]ADDDAE.COM
+>>   DAEUPD:==@IRIS$DISK:[IRSMGR.DIFF]DAEUPD.COM
+>>   MERGE:==@IRIS$DISK:[IRSMGR.DIFF]MERGE.COM
+>>   SPLICE:==@IRIS$DISK:[IRSMGR.DIFF]SPLICE.COM
+>>   SPURION:==@i_p:spurion
+>>   tp:==@i_p:temp_plot
+>>   tpc:==@i_p:temp_plot_current 
+>>   Offset:==@i_p:offset.com
+>>   elf:==@i_p:elf
+>>   swift:==@i_p:swift
+>>   fury:==@i_p:fury
+>>   gaus:==@i_p:gaus
+>>   G :== PEAK i_p:GAUSS
+>>   GEC:== PEAK i_p:GEC
+>>   LASER :== @i_p:laser_plots.com
+>>   diffraction :== @i_p:diff_progs.com
+>>   inelastic :== @i_p:inel_progs.com
+>>   genie :== @i_p:gen_progs.com
+>>   igis :== @i_p:igis_progs.com
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>>   Type GENIE for a list of general Genie routines
+>> 
+>>   Type INELASTIC for Inelastic Scattering specfic analysis programs
+>> 
+>>   Type DIFFRACTION for a list of DIFFRACTION specfic data analysis programs
+>> 
+>> 
+>> 
+>> 
+>> 
+>> 
+>>   GCL ERROR: command file does not exist
+>>  EXIT
+ 
+  SIC          job terminated at 11-JUL-2000 12:11:03.15
+
+  Accounting information:
+  Buffered I/O count:                219      Peak working set size:       6432
+  Direct I/O count:                  152      Peak virtual size:         198880
+  Page faults:                      1010      Mounted volumes:                0
+  Charged CPU time:        0 00:00:00.30      Elapsed time:       0 00:00:00.48

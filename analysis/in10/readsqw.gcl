@@ -1,0 +1,144 @@
+FORWARD def_work
+FORWARD writeipg
+FORWARD generate_work
+
+ PROCEDURE READSQW
+ PARAMETERS filename=STRING n=INTEGER
+ RESULT out
+ 
+ LOCAL sqwfile tmp tmp points twotheta temp q efixed
+
+   sqwfile = asciifile:open(filename,comment="#")
+   n = 8
+
+   out = dimensions(n)
+
+   LOOP i FROM 1 TO n
+   
+   tmp=asciifile:readfree(sqwfile,"p1,p2,p3,p4,p5,p6,p7,p8",count=2)
+   points = tmp.p8[1]
+   tmp=asciifile:readfree(sqwfile,"p1,p2,p3,p4,p5,p6",count=1)
+
+   twotheta = tmp.p1[1]
+   efixed = tmp.p2[1]
+   temp = tmp.p4[1]
+
+   tmp=asciifile:readfree(sqwfile,"p1,p2,p3",count=1)
+
+   q = tmp.p1[1]
+
+   printin "Number of points = "points
+   printin "2theta = "twotheta
+   printin "Temperature (K) = "temp
+
+   asciifile/readfree sqwfile "n,x,y,e" count=points
+   out[i]=asciifile:data(sqwfile)
+
+   out[i].q = q
+   out[i].efixed = efixed
+   out[i].file = filename
+   out[i].points = points
+   out[i].twotheta = twotheta
+   out[i].temperature = temp
+
+
+
+   ENDLOOP
+
+   asciifile/close sqwfile
+
+   out = generate_work(out)
+
+ ENDPROCEDURE
+
+PROCEDURE GENERATE_WORK
+PARAMETERS win
+RESULT w
+LOCAL lambda Q title
+
+ lambda = 6.271
+
+ w =dimensions(length(win))
+
+ toggle/info/off
+
+ title = inquire_string("Enter Title")
+
+ LOOP i FROM 1 TO length(w)
+  Q = (4*$PI/lambda)*sin(win[i].twotheta*0.0174533*0.5)
+  win[i].q = q
+  w[i] = def_work(i,win[i].twotheta,win[i].q,win[i].efixed,title=title)
+  w[i].x = win[i].x
+  w[i].y = win[i].y
+  w[i].e = win[i].e
+  w[i].q = win[i].q
+  w[i].file = win[i].file
+  w[i].title = title
+  setpar w[i] l1=0.0 l2=0.0 tt=win[i].twotheta em=2 ef=win[i].efixed	  
+ ENDLOOP
+
+ toggle/info/on
+ENDPROCEDURE
+
+PROCEDURE WRITEIPG
+PARAMETERS win outfile=STRING
+RESULT w
+LOCAL lambda Q 
+
+ print "\n"
+ print "Writing spectra"
+ lambda = 6.271
+
+ w =dimensions(length(win))
+
+# IF (win.title=_)
+#  w.title = inquire_string("Enter Title")
+# ELSE
+#  w.title = win.title 
+#] ENDIF
+
+ toggle/info/off
+
+ LOOP i FROM 1 TO length(w)
+  Q = (4*$PI/lambda)*sin(win[i].twotheta*0.0174533)
+  w[i] = def_work(i,win[i].twotheta,win[i].q,win[i].efixed,title=win[i].title)
+  w[i].x = win[i].x
+  w[i].y = win[i].y
+  w[i].e = win[i].e
+  w[i].file = win[i].file
+  setpar w[i] l1=0.0 l2=0.0 tt=win[i].twotheta em=2 ef=win[i].efixed	  
+  rebin/lin w[i] -0.6 0.005 0.6
+  IF (i=1)
+   put/new/g2 w[i] file=outfile
+  ELSE
+   put/g2 w[i] file=outfile
+  ENDIF
+  print ".."as_string(i)
+ ENDLOOP
+
+ toggle/info/on
+ENDPROCEDURE
+
+PROCEDURE def_work
+ PARAMETERS i angle=REAL q=REAL ef=REAL title=STRING
+ RESULT res
+ res = fields()
+ res.ut = dimensions(30); fill res.ut 0.0
+ res.ut[3] = ef		# Analysing Energy
+ res.ut[4] = angle	# Scattering Angle
+ res.ut[5] = q		# Q-value
+ res.delta = 0.0
+ res.fi = 0.0
+ res.spec_no = as_string(i)
+ res.nut = 30
+ res.time = now()
+ res.run_duration = 0.0
+ res.history = " "
+ res.run_no = "00001"
+ res.inst_name = "IN10"
+ res.title = title
+ res.xlabel = "Energy Transfer \\gDE=E1-E2 (meV)"
+ res.ylabel = "(dimensionless)"
+ res.user_name = "Stuart Campbell"
+ENDPROCEDURE
+

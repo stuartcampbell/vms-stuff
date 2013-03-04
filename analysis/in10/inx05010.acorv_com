@@ -1,0 +1,13 @@
+$ define/user sys$output sys$scratch:INX05010.acorv_log
+$ akorn 
+> set inst INX
+> set disk USER$DISK:
+> set dir [SIC.ANALYSIS.IN10]
+> geom F
+> set ext IQW
+> run 5010
+> VAN 1.0 0.0 0.0721 5.08 g_f:van.mut
+> BEAM 1.5 1.0
+> OUT V
+> SUB/que=alpha$batch
+> exit 

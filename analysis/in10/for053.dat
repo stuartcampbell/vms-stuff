@@ -1,0 +1,461 @@
+
+ --------------------------------------------------
+        Analysis of data with QUASI_LINES_2DR
+ --------------------------------------------------
+ Data-f: 300.iqw                                                     
+ es                                                          
+ INX05029   Metal hydrid                               
+       5029         8       256
+ ----------------------------------------------------
+    23.8000         0         5    2.0799    0.4132
+ ----------------------------------------------------
+ Data Range:     -9.88  to     9.88  ueV 
+ No. of data used =           69
+ Resn-f: vanadium.iqw                                                
+Resolution Range:     -2.0  to     2.0  ueV
+ -----------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =      5.8713
+Background(Xmin) =    3.354E+01  +-   2.14E+00
+Background(Xmax) =    4.989E+01  +-   2.65E+00
+Zero offset      =         0.08  +-       0.02   ueV 
+ Elastic line
+     Amplitude  =      4.4369E+03  +-   1.336E+02
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =       -94.7
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =      1.1890
+Background(Xmin) =    3.014E+01  +-   1.04E+00
+Background(Xmax) =    4.290E+01  +-   1.39E+00
+Zero offset      =         0.07  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      2.7242E+03  +-   4.302E+02
+Quasi-elastic line  1
+     FWHM       =            0.80  +-        0.23   ueV 
+     Amplitude  =      2.5089E+03  +-   3.817E+02
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =       -27.0
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =      1.0886
+Background(Xmin) =    2.964E+01  +-   1.05E+00
+Background(Xmax) =    4.203E+01  +-   1.41E+00
+Zero offset      =         0.08  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =     -1.5247E+03  +-   3.129E+03
+Quasi-elastic line  1
+     FWHM       =            0.10  +-        0.07   ueV 
+     Amplitude  =      5.7980E+03  +-   3.074E+03
+Quasi-elastic line  2
+     FWHM       =            2.00  +-        0.73   ueV 
+     Amplitude  =      1.0542E+03  +-   3.177E+02
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =       -27.2
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =      1.0115
+Background(Xmin) =    3.519E+01  +-   3.57E+00
+Background(Xmax) =    4.833E+01  +-   3.90E+00
+Zero offset      =         0.07  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =     -2.7559E+03  +-   3.385E+03
+Quasi-elastic line  1
+     FWHM       =            0.08  +-        0.05   ueV 
+     Amplitude  =      7.1885E+03  +-   3.346E+03
+Quasi-elastic line  2
+     FWHM       =            4.76  +-        1.72   ueV 
+     Amplitude  =      3.0548E+03  +-   2.704E+03
+Quasi-elastic line  3
+     FWHM       =            8.69  +-        3.40   ueV 
+     Amplitude  =     -3.2290E+03  +-   2.830E+03
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =       -26.5
+ ----------------------------------------------------
+    34.7000         0         5    2.0799    0.5976
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =    126.2893
+Background(Xmin) =    2.210E+01  +-   7.55E+00
+Background(Xmax) =    4.138E+01  +-   9.92E+00
+Zero offset      =        -0.17  +-       0.22   ueV 
+ Elastic line
+     Amplitude  =      3.4269E+02  +-   1.180E+02
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =     -1898.9
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =     41.8427
+Background(Xmin) =    1.939E+01  +-   4.88E+00
+Background(Xmax) =   -1.415E+01  +-   9.71E+00
+Zero offset      =        -0.28  +-       0.07   ueV 
+ Elastic line
+     Amplitude  =      3.2048E+02  +-   8.216E+01
+Quasi-elastic line  1
+     FWHM       =            5.00  +-        0.49   ueV 
+     Amplitude  =      6.2996E+03  +-   7.199E+02
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =      -637.0
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =     40.4751
+Background(Xmin) =   -9.125E-01  +-   1.88E+01
+Background(Xmax) =   -4.246E+01  +-   2.34E+01
+Zero offset      =        -0.26  +-       0.07   ueV 
+ Elastic line
+     Amplitude  =      2.7626E+02  +-   9.642E+01
+Quasi-elastic line  1
+     FWHM       =           18.04  +-        8.81   ueV 
+     Amplitude  =      5.8269E+03  +-   4.175E+03
+Quasi-elastic line  2
+     FWHM       =            4.20  +-        0.80   ueV 
+     Amplitude  =      4.9069E+03  +-   1.284E+03
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =      -617.6
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =     39.0180
+Background(Xmin) =   -4.077E+01  +-   2.34E+01
+Background(Xmax) =   -8.879E+01  +-   2.57E+01
+Zero offset      =        -0.26  +-       0.06   ueV 
+ Elastic line
+     Amplitude  =      3.2157E+02  +-   8.085E+01
+Quasi-elastic line  1
+     FWHM       =           17.09  +-        4.87   ueV 
+     Amplitude  =      2.7698E+04  +-   1.753E+04
+Quasi-elastic line  2
+     FWHM       =            6.08  +-        1.31   ueV 
+     Amplitude  =      1.6475E+04  +-   1.751E+04
+Quasi-elastic line  3
+     FWHM       =            9.58  +-        3.53   ueV 
+     Amplitude  =     -2.5005E+04  +-   2.096E+04
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =      -596.9
+ ----------------------------------------------------
+    51.0000         0         5    2.0799    0.8627
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =     11.3297
+Background(Xmin) =    1.260E+01  +-   1.97E+00
+Background(Xmax) =    2.104E+01  +-   2.48E+00
+Zero offset      =         0.02  +-       0.02   ueV 
+ Elastic line
+     Amplitude  =      1.6294E+04  +-   5.086E+02
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =      -175.7
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =      6.2275
+Background(Xmin) =    7.147E+00  +-   1.98E+00
+Background(Xmax) =    1.359E+01  +-   2.44E+00
+Zero offset      =         0.02  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      1.5453E+04  +-   4.440E+02
+Quasi-elastic line  1
+     FWHM       =            3.24  +-        0.99   ueV 
+     Amplitude  =      3.1396E+03  +-   4.602E+02
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =      -101.9
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =      5.9788
+Background(Xmin) =    1.800E+01  +-   6.05E+00
+Background(Xmax) =    2.500E+01  +-   6.26E+00
+Zero offset      =         0.02  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      1.5611E+04  +-   3.896E+02
+Quasi-elastic line  1
+     FWHM       =            7.09  +-        1.85   ueV 
+     Amplitude  =      1.6913E+04  +-   2.059E+04
+Quasi-elastic line  2
+     FWHM       =           10.26  +-        3.26   ueV 
+     Amplitude  =     -1.8595E+04  +-   2.069E+04
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =       -99.1
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =      5.8090
+Background(Xmin) =    1.845E+01  +-   6.11E+00
+Background(Xmax) =    2.537E+01  +-   6.29E+00
+Zero offset      =         0.02  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      6.3733E+03  +-   1.387E+04
+Quasi-elastic line  1
+     FWHM       =            8.09  +-        2.07   ueV 
+     Amplitude  =      1.6846E+04  +-   1.942E+04
+Quasi-elastic line  2
+     FWHM       =           11.33  +-        3.31   ueV 
+     Amplitude  =     -1.9283E+04  +-   1.961E+04
+Quasi-elastic line  3
+     FWHM       =            0.06  +-        0.09   ueV 
+     Amplitude  =      9.6622E+03  +-   1.393E+04
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =       -98.5
+ ----------------------------------------------------
+    71.0000         0         5    2.0799    1.1637
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =    174.8041
+Background(Xmin) =    1.555E+01  +-   7.45E+00
+Background(Xmax) =    2.425E+01  +-   9.40E+00
+Zero offset      =        -0.01  +-       0.03   ueV 
+ Elastic line
+     Amplitude  =      5.3757E+03  +-   8.304E+02
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =     -2625.8
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =     35.5810
+Background(Xmin) =    4.679E+00  +-   3.61E+00
+Background(Xmax) =   -8.477E+00  +-   5.12E+00
+Zero offset      =        -0.13  +-       0.03   ueV 
+ Elastic line
+     Amplitude  =      6.6492E+02  +-   1.198E+03
+Quasi-elastic line  1
+     FWHM       =            1.28  +-        0.17   ueV 
+     Amplitude  =      1.6473E+04  +-   1.205E+03
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =      -543.1
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =     33.7739
+Background(Xmin) =    1.301E+01  +-   7.28E+00
+Background(Xmax) =    3.584E+00  +-   9.32E+00
+Zero offset      =        -0.14  +-       0.04   ueV 
+ Elastic line
+     Amplitude  =      2.4880E+03  +-   1.335E+03
+Quasi-elastic line  1
+     FWHM       =            1.91  +-        0.70   ueV 
+     Amplitude  =      1.9086E+04  +-   6.719E+03
+Quasi-elastic line  2
+     FWHM       =            6.13  +-        5.07   ueV 
+     Amplitude  =     -6.2808E+03  +-   7.118E+03
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =      -517.5
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =     28.4742
+Background(Xmin) =    1.552E+01  +-   6.39E+00
+Background(Xmax) =    6.766E+00  +-   8.33E+00
+Zero offset      =        -0.14  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =     -2.9530E+04  +-   1.938E+04
+Quasi-elastic line  1
+     FWHM       =            0.07  +-        0.04   ueV 
+     Amplitude  =      3.6453E+04  +-   1.954E+04
+Quasi-elastic line  2
+     FWHM       =            5.63  +-        1.86   ueV 
+     Amplitude  =     -1.6873E+04  +-   1.858E+04
+Quasi-elastic line  3
+     FWHM       =            3.41  +-        0.90   ueV 
+     Amplitude  =      2.3781E+04  +-   1.844E+04
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =      -441.2
+ ----------------------------------------------------
+    91.0000         0         5    2.0799    1.4293
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =     27.6672
+Background(Xmin) =    1.449E+01  +-   3.06E+00
+Background(Xmax) =    1.887E+01  +-   3.71E+00
+Zero offset      =         0.03  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      5.0636E+04  +-   1.406E+03
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =      -421.1
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =      6.6883
+Background(Xmin) =    6.332E+00  +-   1.73E+00
+Background(Xmax) =    8.229E+00  +-   2.11E+00
+Zero offset      =         0.02  +-       0.00   ueV 
+ Elastic line
+     Amplitude  =      4.6509E+04  +-   1.025E+03
+Quasi-elastic line  1
+     FWHM       =            1.60  +-        0.28   ueV 
+     Amplitude  =      9.0844E+03  +-   7.802E+02
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =      -110.1
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =      6.2344
+Background(Xmin) =    1.122E+01  +-   3.27E+00
+Background(Xmax) =    1.379E+01  +-   3.67E+00
+Zero offset      =         0.02  +-       0.00   ueV 
+ Elastic line
+     Amplitude  =      4.7449E+04  +-   8.320E+02
+Quasi-elastic line  1
+     FWHM       =            3.13  +-        1.20   ueV 
+     Amplitude  =      2.1350E+04  +-   3.107E+04
+Quasi-elastic line  2
+     FWHM       =            4.95  +-        2.68   ueV 
+     Amplitude  =     -1.5172E+04  +-   3.100E+04
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =      -104.6
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =      5.9174
+Background(Xmin) =    1.029E+01  +-   3.93E+00
+Background(Xmax) =    1.274E+01  +-   4.28E+00
+Zero offset      =         0.03  +-       0.00   ueV 
+ Elastic line
+     Amplitude  =      8.4134E+04  +-   3.639E+04
+Quasi-elastic line  1
+     FWHM       =            1.16  +-        0.81   ueV 
+     Amplitude  =      2.0306E+04  +-   1.348E+04
+Quasi-elastic line  2
+     FWHM       =            7.14  +-        6.77   ueV 
+     Amplitude  =     -2.9987E+03  +-   2.708E+03
+Quasi-elastic line  3
+     FWHM       =            0.12  +-        0.14   ueV 
+     Amplitude  =     -4.7702E+04  +-   4.174E+04
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =      -102.1
+ ----------------------------------------------------
+   111.0000         0         5    2.0799    1.6515
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =     52.3130
+Background(Xmin) =    1.247E+01  +-   4.09E+00
+Background(Xmax) =    1.932E+01  +-   5.15E+00
+Zero offset      =         0.14  +-       0.03   ueV 
+ Elastic line
+     Amplitude  =      3.6483E+04  +-   1.349E+03
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =      -790.1
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =     10.3405
+Background(Xmin) =    5.584E+00  +-   1.87E+00
+Background(Xmax) =    6.571E+00  +-   2.42E+00
+Zero offset      =         0.15  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =     -1.2849E+05  +-   5.057E+04
+Quasi-elastic line  1
+     FWHM       =            0.05  +-        0.02   ueV 
+     Amplitude  =      1.6854E+05  +-   5.051E+04
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =      -165.2
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =      9.1934
+Background(Xmin) =    6.762E+00  +-   1.83E+00
+Background(Xmax) =    8.485E+00  +-   2.40E+00
+Zero offset      =         0.14  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =     -1.8593E+05  +-   5.953E+04
+Quasi-elastic line  1
+     FWHM       =            0.07  +-        0.04   ueV 
+     Amplitude  =      2.5609E+05  +-   5.903E+04
+Quasi-elastic line  2
+     FWHM       =            0.39  +-        0.25   ueV 
+     Amplitude  =     -3.0853E+04  +-   3.972E+04
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =      -150.2
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =      8.9813
+Background(Xmin) =    1.113E+01  +-   5.20E+00
+Background(Xmax) =    1.375E+01  +-   5.81E+00
+Zero offset      =         0.14  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =     -2.1802E+05  +-   6.487E+04
+Quasi-elastic line  1
+     FWHM       =            0.07  +-        0.03   ueV 
+     Amplitude  =      3.2136E+05  +-   6.652E+04
+Quasi-elastic line  2
+     FWHM       =            0.23  +-        0.10   ueV 
+     Amplitude  =     -6.3702E+04  +-   6.213E+04
+Quasi-elastic line  3
+     FWHM       =           13.56  +-        9.67   ueV 
+     Amplitude  =     -1.7882E+03  +-   1.859E+03
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =      -148.7
+ ----------------------------------------------------
+   131.0000         0         5    2.0799    1.8235
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =     11.3119
+Background(Xmin) =    1.483E+01  +-   2.01E+00
+Background(Xmax) =    1.994E+01  +-   2.46E+00
+Zero offset      =         0.01  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      3.0001E+04  +-   6.981E+02
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =      -175.8
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =      2.8629
+Background(Xmin) =    8.738E+00  +-   1.29E+00
+Background(Xmax) =    1.138E+01  +-   1.59E+00
+Zero offset      =         0.01  +-       0.00   ueV 
+ Elastic line
+     Amplitude  =      2.8214E+04  +-   4.704E+02
+Quasi-elastic line  1
+     FWHM       =            2.40  +-        0.45   ueV 
+     Amplitude  =      4.8581E+03  +-   3.407E+02
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =       -52.1
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =      2.7987
+Background(Xmin) =    1.301E+01  +-   3.54E+00
+Background(Xmax) =    1.597E+01  +-   3.77E+00
+Zero offset      =         0.01  +-       0.00   ueV 
+ Elastic line
+     Amplitude  =      2.8550E+04  +-   4.434E+02
+Quasi-elastic line  1
+     FWHM       =            3.97  +-        1.95   ueV 
+     Amplitude  =      8.3098E+03  +-   8.206E+03
+Quasi-elastic line  2
+     FWHM       =            8.73  +-        5.70   ueV 
+     Amplitude  =     -5.6411E+03  +-   8.635E+03
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =       -52.0
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =      2.6969
+Background(Xmin) =    1.373E+01  +-   3.55E+00
+Background(Xmax) =    1.662E+01  +-   3.74E+00
+Zero offset      =         0.01  +-       0.00   ueV 
+ Elastic line
+     Amplitude  =      2.4472E+04  +-   1.093E+04
+Quasi-elastic line  1
+     FWHM       =            5.69  +-        1.77   ueV 
+     Amplitude  =      1.3166E+04  +-   1.540E+04
+Quasi-elastic line  2
+     FWHM       =            8.50  +-        2.94   ueV 
+     Amplitude  =     -1.1740E+04  +-   1.566E+04
+Quasi-elastic line  3
+     FWHM       =            0.19  +-        0.51   ueV 
+     Amplitude  =      5.0190E+03  +-   1.073E+04
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =       -51.9
+ ----------------------------------------------------
+   151.0000         0         5    2.0799    1.9401
+ ----------------------------------------------------
+ Best-fit assuming no. of quasi-elastic lines =  0          
+>>> Normalised Chi-squared =    233.9180
+Background(Xmin) =    2.490E+01  +-   1.05E+01
+Background(Xmax) =    3.874E+01  +-   1.31E+01
+Zero offset      =         0.01  +-       0.04   ueV 
+ Elastic line
+     Amplitude  =      3.1415E+03  +-   6.868E+02
+Log10[Prob( 0 Quasi-elastic lines|{Data})] =     -3512.0
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  1          
+>>> Normalised Chi-squared =     87.9107
+Background(Xmin) =    1.300E+01  +-   7.00E+00
+Background(Xmax) =   -1.116E+01  +-   1.05E+01
+Zero offset      =        -0.27  +-       0.03   ueV 
+ Elastic line
+     Amplitude  =      2.2370E+03  +-   6.547E+02
+Quasi-elastic line  1
+     FWHM       =            2.45  +-        0.33   ueV 
+     Amplitude  =      1.4032E+04  +-   1.303E+03
+Log10[Prob( 1 Quasi-elastic lines|{Data})] =     -1327.9
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  2          
+>>> Normalised Chi-squared =     85.2352
+Background(Xmin) =    2.288E+01  +-   1.16E+01
+Background(Xmax) =    4.107E+00  +-   1.70E+01
+Zero offset      =        -0.28  +-       0.03   ueV 
+ Elastic line
+     Amplitude  =      2.7294E+03  +-   5.878E+02
+Quasi-elastic line  1
+     FWHM       =            3.62  +-        1.04   ueV 
+     Amplitude  =      3.1163E+04  +-   3.628E+04
+Quasi-elastic line  2
+     FWHM       =            5.37  +-        2.37   ueV 
+     Amplitude  =     -2.0071E+04  +-   3.655E+04
+Log10[Prob( 2 Quasi-elastic lines|{Data})] =     -1289.4
+ -------------------------
+ Best-fit assuming no. of quasi-elastic lines =  3          
+>>> Normalised Chi-squared =     72.5288
+Background(Xmin) =    1.894E+01  +-   8.66E+00
+Background(Xmax) =    1.468E+00  +-   1.34E+01
+Zero offset      =        -0.27  +-       0.01   ueV 
+ Elastic line
+     Amplitude  =      5.0016E+04  +-   4.008E+04
+Quasi-elastic line  1
+     FWHM       =            2.68  +-        1.05   ueV 
+     Amplitude  =      4.5812E+04  +-   8.390E+04
+Quasi-elastic line  2
+     FWHM       =            3.33  +-        1.80   ueV 
+     Amplitude  =     -3.0375E+04  +-   8.398E+04
+Quasi-elastic line  3
+     FWHM       =            0.06  +-        0.06   ueV 
+     Amplitude  =     -5.1940E+04  +-   3.968E+04
+Log10[Prob( 3 Quasi-elastic lines|{Data})] =     -1102.5

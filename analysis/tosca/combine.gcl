@@ -1,0 +1,46 @@
+PROCEDURE combine
+
+ LOCAL i w data_path outfile infile 
+
+ data_path = "user$disk:[sic.data.tosca]"
+
+#Sample 2
+ outfile="sample2"
+ LOOP i FROM 653 TO 666
+ infile = data_path+"trsl"+as_string(i)+".ana"
+ IF (i=653)
+  w = get(1,infile) 
+ ELSE
+  w = w + get(1,infile) 
+ ENDIF
+ ENDLOOP
+ put/new w file=outfile+".in3"
+ put/new/g2 w file=outfile+".in2"
+
+#Sample 4
+ outfile="sample4"
+ LOOP i FROM 668 TO 680
+ infile = data_path+"trsl"+as_string(i)+".ana" 
+ IF (i=668)
+  w = get(1,infile) 
+ ELSE
+  w = w + get(1,infile) 
+ ENDIF
+ ENDLOOP
+ put/new w file=outfile+".in3"
+ put/new/g2 w file=outfile+".in2"
+
+#Sample 5
+ outfile="sample5"
+ LOOP i FROM 682 TO 696
+ infile = data_path+"trsl"+as_string(i)+".ana" 
+ IF (i=682)
+  w = get(1,infile) 
+ ELSE
+  w = w + get(1,infile) 
+ ENDIF
+ ENDLOOP
+ put/new w file=outfile+".in3"
+ put/new/g2 w file=outfile+".in2"
+
+ENDPROCEDURE

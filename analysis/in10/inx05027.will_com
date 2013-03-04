@@ -1,0 +1,11 @@
+$ set file/prot=(w:re) sys$scratch:INX05027.WILL_log
+$ set def USER$DISK:[SIC.DATA.IN10]
+$ run ida_impa:will_5_3_1_axp 
+set disk USER$DISK:
+set dir [SIC.DATA.IN10]
+set inst INX
+set ext ASC
+run 5027
+be 
+exit 
+$ exit 

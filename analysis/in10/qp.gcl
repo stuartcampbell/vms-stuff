@@ -1,0 +1,10 @@
+PROCEDURE qp
+PARAMETERS file=STRING
+GLOBAL w i
+
+	w = dimensions(8)
+	LOOP i FROM 1 TO 8
+	w[i] = get(i, file)
+	ENDLOOP
+
+ENDPROCEDURE
