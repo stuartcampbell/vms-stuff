@@ -1,4 +1,4 @@
-isis-vms-stuff
+(Open)VMS Stuff
 ==============
 
-Various Stuff relating to VMS
+Various Stuff relating to OpenVMS
